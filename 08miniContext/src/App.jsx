@@ -5,6 +5,9 @@ import UserContextProvider from './context/UserContextProvider'
 import Login from './components/Login'
 import Profile from './components/Profile'
 
+
+// add  darkMode:"class", in tailwindConfig file
+
 function App() {
 
   return (

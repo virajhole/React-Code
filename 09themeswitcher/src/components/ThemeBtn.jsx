@@ -1,5 +1,8 @@
 import React from 'react'
 import useTheme from '../contexts/theme';
+
+// add  darkMode:"class", in tailwindConfig file
+
 export default function ThemeBtn() {
 
     const { themeMode, lightTheme, darkTheme } = useTheme()
